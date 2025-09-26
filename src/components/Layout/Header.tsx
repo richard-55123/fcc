@@ -241,7 +241,7 @@ function Header() {
                                 : "bg-fcc-blue text-white hover:bg-fcc-red shadow-md"
                                 }`}
                         >
-                            Faire une demande
+                            Contactez-Nous
                         </Link>
                     </div>
 
@@ -310,7 +310,7 @@ function Header() {
                                 className="mt-3 inline-block bg-white text-fcc-blue font-semibold px-4 py-3 rounded-lg hover:bg-gray-100 transition-all duration-300 text-center text-sm"
                                 onClick={closeMobileMenu}
                             >
-                                Faire une demande
+                                 Contactez-Nous
                             </Link>
                         </nav>
                     </div>

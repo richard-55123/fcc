@@ -7,6 +7,7 @@ import ServicePage from "./pages/servivce"
 import EducationInternationnal from "./pages/education"
 import MobiliteEconomique from "./pages/mobilite"
 import DeveloppementAffaires from "./pages/affaire"
+import FormulairePage from "./pages/formulaire"
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
           <Route path="about" element={<AboutPage />} />
           <Route path="contact" element={<ContactPage />} />
           <Route path="services" element={<ServicePage />} />
+          <Route path="formulaire" element={<FormulairePage />} />
           {/* <Route path="visa" element={<VisaPage />} />
           <Route path="blog" element={<BlogPage />} />
           <Route path="apply" element={<ApplyPage />} /> */}
