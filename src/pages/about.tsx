@@ -9,12 +9,12 @@ import TestimonialsSection from '../components/Sections/TestimonialsSection';
 import SectionEquipe from '../components/Sections/SectionEquipe';
 
 const AboutPage: React.FC = () => {
-    const breadcrumbs = useBreadcrumbs('About Us');
+    const breadcrumbs = useBreadcrumbs('Qui sommes-nous ?');
 
     return (
         <div>
             <Banner
-                title="Qui sommes-nous"
+                title="Qui sommes-nous ?"
                 backgroundImage="/images/about.jpeg"
                 breadcrumbs={breadcrumbs}
                 height="medium"

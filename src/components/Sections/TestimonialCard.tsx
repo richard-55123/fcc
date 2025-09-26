@@ -42,7 +42,6 @@ const TestimonialCard: React.FC<Props> = ({ testimonial, dark = false }) => {
                 ))}
             </div>
 
-            {/* Texte */}
             <p
                 className={`text-center leading-relaxed ${dark ? "text-gray-300" : "text-gray-600"
                     }`}
@@ -50,7 +49,6 @@ const TestimonialCard: React.FC<Props> = ({ testimonial, dark = false }) => {
                 {testimonial.text}
             </p>
 
-            {/* Accent line */}
             <div className="mt-6 w-16 h-1 mx-auto rounded-full bg-primary/80"></div>
         </div>
 

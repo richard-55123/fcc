@@ -5,8 +5,8 @@ export const useBreadcrumbs = (currentPageTitle: string): BreadcrumbItem[] => {
     const location = useLocation();
 
     const routeMap: { [key: string]: string } = {
-        '/': 'HOME',
-        '/about': 'Qui sommes-nous',
+        '/': 'Accueil',
+        '/about': 'Qui sommes-nous ?',
         '/country': 'COUNTRY',
         '/coaching': 'COACHING',
         '/visa': 'VISA',
@@ -15,7 +15,7 @@ export const useBreadcrumbs = (currentPageTitle: string): BreadcrumbItem[] => {
     };
 
     const breadcrumbs: BreadcrumbItem[] = [
-        { label: 'HOME', path: '/' }
+        { label: 'Accueil', path: '/' }
     ];
 
     if (location.pathname !== '/') {

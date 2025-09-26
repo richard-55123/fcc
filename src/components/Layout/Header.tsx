@@ -61,10 +61,10 @@ function Header() {
     }, []);
 
     const menuItems: MenuItem[] = [
-        { name: "Home", path: "/" },
-        { name: "Qui sommes-nous", path: "/about" },
+        { name: "Accueil", path: "/" },
+        { name: "Qui sommes-nous ?", path: "/about" },
         { name: "Services", path: "#", hasDropdown: true },
-        // { name: "Témoignages", path: "/temoignage" },
+        { name: "Témoignages", path: "/temoignage" },
         { name: "Formulaire", path: "/Formulaire" },
     ];
 
@@ -310,7 +310,7 @@ function Header() {
                                 className="mt-3 inline-block bg-white text-fcc-blue font-semibold px-4 py-3 rounded-lg hover:bg-gray-100 transition-all duration-300 text-center text-sm"
                                 onClick={closeMobileMenu}
                             >
-                                 Contactez-Nous
+                                Contactez-Nous
                             </Link>
                         </nav>
                     </div>

@@ -8,6 +8,7 @@ import EducationInternationnal from "./pages/education"
 import MobiliteEconomique from "./pages/mobilite"
 import DeveloppementAffaires from "./pages/affaire"
 import FormulairePage from "./pages/formulaire"
+import Temoignages from "./pages/temoignage"
 
 function App() {
 
@@ -20,6 +21,7 @@ function App() {
           <Route path="contact" element={<ContactPage />} />
           <Route path="services" element={<ServicePage />} />
           <Route path="formulaire" element={<FormulairePage />} />
+          <Route path="/temoignage" element={<Temoignages />} />
           {/* <Route path="visa" element={<VisaPage />} />
           <Route path="blog" element={<BlogPage />} />
           <Route path="apply" element={<ApplyPage />} /> */}
