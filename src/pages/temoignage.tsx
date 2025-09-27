@@ -1,4 +1,5 @@
 import LogoCarousel from "../components/Sections/LogoCarousel";
+import PresentationSectionTwo from "../components/Sections/PewsentationTwo";
 import TestimonialsSection from "../components/Sections/TestimonialsSection";
 import VideoGallery from "../components/Sections/VideoGallery";
 import Banner from "../components/Ux/banner";
@@ -19,6 +20,7 @@ const Temoignages = () => {
             <div className="min-h-screen bg-gray-50">
                 <VideoGallery videos={galleryTemoignage} />
             </div>
+            <PresentationSectionTwo/>
             <TestimonialsSection />
             <LogoCarousel />
         </>
