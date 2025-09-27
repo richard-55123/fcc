@@ -102,7 +102,7 @@ const GalleryCarouselCards = () => {
                                         {video.subtitle}
                                     </p> */}
                                     <button
-                                        onClick={() => window.location.href = "/temoignages"}
+                                        onClick={() => window.location.href = "/temoignage"}
                                         className="mt-4 px-5 py-2 bg-primary text-white rounded-full font-medium hover:bg-primary/90 transition"
                                     >
                                         Voir plus
